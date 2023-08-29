@@ -34,41 +34,34 @@ export default function Weather() {
         </div>
       </form>
       <div className="col-12">
-        <div className="card" id="border">
-          <div className="card-body">
-            <h1>Mbombela</h1>
-            <h2>{weatherData.date}</h2>
-            <h3>
-              <span className="temperature">{weatherData.temperature}</span>
-              <span>°C</span>
-              <br />
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-                alt="Clear"
-              />
-            </h3>
-            <h4>Feels like: {weatherData.feelsLike}°C</h4>
-          </div>
+        <div className="card-body">
+          <h1>Mbombela</h1>
+          <h2>{weatherData.date}</h2>
+          <h3>
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              alt="Clear"
+            />
+            <span className="temperature">{weatherData.temperature}</span>
+            <span>°C</span>
+          </h3>
         </div>
       </div>
+
       <div className="row">
         <div className="col-4">
-          <div className="card">
-            <div className="card-body">{weatherData.description}</div>
+          <div className="card-body">{weatherData.description}</div>
+        </div>
+
+        <div className="col-4">
+          <div className="card-body">
+            Humidity <span>{weatherData.humidity}</span>%
           </div>
         </div>
+
         <div className="col-4">
-          <div className="card">
-            <div className="card-body">
-              Humidity <span>{weatherData.humidity}</span>%
-            </div>
-          </div>
-        </div>
-        <div className="col-4">
-          <div className="card">
-            <div className="card-body">
-              Wind <span>{weatherData.wind}</span>Km/h
-            </div>
+          <div className="card-body">
+            Wind <span>{weatherData.wind}</span>Km/h
           </div>
         </div>
       </div>

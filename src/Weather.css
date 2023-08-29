@@ -1,26 +1,22 @@
 body {
   font-family: "Indie Flower", cursive;
 }
-h1,
-h2,
-h3,
-h4 {
-  text-align: center;
-}
+
 form {
   margin-top: 10px;
 }
 .submit {
-  background-color: #75885b;
+  background-color: #1e1;
 }
 .temperature {
   font-size: 40px;
 }
 
 .container {
-  border: 1px solid #75885b;
+  border: 10px solid #f78457;
   border-radius: 6px;
-  background-color: #e3fad5;
+  background-color: #fff;
+  color: #f78457;
   margin-top: 30px;
 }
 .border {
