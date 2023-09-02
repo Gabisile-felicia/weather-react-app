@@ -3,6 +3,7 @@
   border-radius: 8px;
   background-color: #f19977;
   margin: 12px;
+  max-width: 600px;
 }
 .App small {
   margin: 10px 0;
