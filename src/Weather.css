@@ -6,27 +6,16 @@ form {
   margin-top: 10px;
 }
 .submit {
-  background-color: #1e1;
+  background-color: #c07254 !important;
 }
 .temperature {
   font-size: 40px;
 }
 
 .container {
-  border: 10px solid #f78457;
   border-radius: 6px;
   background-color: #fff;
-  color: #f78457;
+  padding: 12px;
+  color: #f19977;
   margin-top: 30px;
-}
-.border {
-  background-color: #c4dea4;
-  border: 1px solid;
-  padding: 0px;
-
-  margin: 12px 10px 12px 12px;
-}
-.card {
-  background-color: #d5e7b8;
-  margin: 12px;
 }
