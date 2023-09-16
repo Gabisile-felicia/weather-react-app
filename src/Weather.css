@@ -6,7 +6,7 @@ form {
   margin-top: 10px;
 }
 .submit {
-  background-color: #c07254 !important;
+  background: rgb(222, 248, 226) !important;
 }
 .temperature {
   font-size: 40px;
